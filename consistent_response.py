@@ -11,7 +11,7 @@ class PageItem:
         self.position = position
         self.rotation = rotation
 
-openai.api_key = "sk-proj-KT0u3nPKXdhIX1axxFtoT3BlbkFJjtB1hW7lceVDFbsh7zRi"
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 
 #Send input into chatgpt4o
